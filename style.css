@@ -1,0 +1,437 @@
+*{
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#whole-container{
+    width: 100%;
+}
+
+/* header */
+.navmargin{
+    padding: 0px 73px;
+}
+
+.navfont{
+    font-size: 13px;
+}
+
+.navdrop{
+    display: none;
+}
+
+/* home section */
+.home{
+    max-width: 100%;
+}
+
+.homebg1{
+    background-image: url("./images/home-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 470px;
+}
+
+.homebg2{
+    background-image: url("./images/home-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 470px;
+}
+
+.homebg3{
+    background-image: url("./images/home-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 470px;
+}
+
+.homehead1{
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.homesubhead1{
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.homebttn1{
+    padding: 5px 20px 5px 22px;
+    color: #054b16;
+    font-weight: 900;
+    background: #9bf00b;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 0;
+    line-height: 1.3;
+    box-shadow: 0 4px 8px 0 transparent;
+}
+
+.homehead2{
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* icons section */
+.iconhead{
+    color: #107c10;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 600;
+    position: relative;
+}
+
+.iconscus{
+    text-decoration: none;
+}
+
+/* games section */
+#games{
+    width: 100%;
+}
+
+.gamebg1{
+    background-image: url("./images/image1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 706px;
+    position: relative;
+}
+
+.gamebg1descp{
+    position: absolute;
+    bottom: 79px;
+    left: 19px;
+    width: 90%;
+    padding: 0 11px;
+}
+
+.game1head{
+    color: #fff;
+    font-size: 34px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.game1para{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.gamebg2descp{
+    position: absolute;
+    bottom: 79px;
+    left: 19px;
+    width: 90%;
+    padding: 0 11px;
+}
+
+.game2head{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.game2para{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.gamebttn1{
+    text-decoration: none;
+    padding: 5px 0px 5px 22px;
+    color: #fff;
+    font-weight: 900;
+    background-color:transparent ;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 0;
+    line-height: 1.3;
+    box-shadow: 0 4px 8px 0 transparent;
+    position: relative;
+}
+
+.gamebg3{
+    position: relative;
+}
+
+
+.displaymob{
+    display: none;
+}
+
+.gamebg7descp{
+    position: absolute;
+    left: 123px;
+    width: 90%;
+    padding: 0 11px;
+    top: 199px;
+    bottom: 79px;
+}
+
+.gamebttn7{
+   color: #000;
+}
+
+.displaymob7{
+    display: none;
+}
+
+/* subfooter */
+.footerpara{
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, .6);
+    padding-right: 12px;
+    margin-bottom: 4px;
+}
+
+/* footer */
+.footerhead{
+    color: #616161;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: start;
+    padding: 30px 0 8px 32px;
+    margin-bottom: 0px;
+}
+
+.footerlist{
+    list-style: none;
+    text-align: start;
+}
+
+.footerlistitem{
+    color: #616161;
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 8px;
+
+}
+
+
+/* pseudo class */
+.iconhead::after{
+    content: '';
+    position: absolute;
+    left: 26px;
+    bottom: 0px;
+    width: 64%;
+    height: 3px;
+    background-color: #107c10;
+    border-radius: 4px;
+    transform: scale(0);
+}
+
+.iconhead:hover:after{
+    transform: scale(1);
+} 
+
+.gamebttn1::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: #9bf00b;
+    border-radius: 4px;
+    transform: scale(0);
+}
+
+.gamebttn1:hover{
+    color: #9bf00b ;
+}
+
+.gamebttn1:hover:after{
+    transform: scale(1);
+} 
+
+
+
+
+
+
+
+/* media quries */
+@media (max-width:1072px) {
+    .navdropdisable{
+        display: none;
+    }
+
+    .navdrop{
+        display: inline;
+    }
+}
+
+@media (max-width:991.8px) {
+    .Xboxlogo{
+        display: none;
+    }
+
+    .micrologo{
+        justify-content: center;
+    }
+    
+    .homebg1{
+        background-image: url("./images/mhomebg-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1272px;
+    }
+
+    .homebg2{
+        background-image: url("./images/mhomebg-2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1272px;
+    }
+
+    .homebg3{
+        background-image: url("./images/mhomebg-3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1272px;
+    }
+
+    .mobhomehead1{
+        margin-top: 657px;
+    }
+
+    .gamedescp2{
+        height: 254px;
+    }
+
+    .displaymob7{
+        display: block;
+    }
+
+    .displaypc7{
+        display: none;
+    }
+
+    .gamebg7descp{
+        position: absolute;
+        left: 0;
+        width: 90%;
+        padding: 0 11px;
+        top: 51px;
+        bottom: 0;
+        height: 128px;
+    }
+}
+
+@media (max-width:454px) {
+    /* .iconhead {
+        color: #107c10;
+        font-size: 10px;
+        line-height: 17px;
+        font-weight: 600;
+        position: relative;
+    } */
+
+    .gamebg2descp {
+        position: absolute;
+        bottom: 79px;
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .displaymob{
+        display: block;
+    }
+
+    .displaypc{
+        display: none;
+    }
+
+    .gamebg1descp {
+        position: absolute;
+        /* bottom: 23px; */
+        left: 0px;
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .game1head {
+        color: #fff;
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: 700;
+    }
+
+    .game1para {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+
+
+}
+
+@media (max-width:394px) {
+    #icons{
+        display: none;
+    } 
+
+    /* .gamebg1descp {
+        position: absolute;
+        bottom: 79px;
+        left: 0;
+        width: 100%;
+        padding: 0 5px;
+    } */
+
+
+    .game1head {
+        color: #fff;
+        font-size: 23px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+
+    .game1para {
+        color: #fff;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+}
